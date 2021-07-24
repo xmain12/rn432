@@ -23,7 +23,7 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "``හායි යාලුවනේ😀! මම දැන් online මේක පුද්ගලික් බොට් සේවාවක්. ♠```\n\n*Version:* ```v3.0 - Stable```\n\n*Developer:* ```RAVANA```\n\n*WhatsApp :* wa.me/94714898434\n\n*Youtube channel :* https://www.youtube.com/channel/UC4WaTaXOPPFP3V6sDBogJug\n\n```RAVANA v3.0 භාවිතා කිරීම ගැන ස්තූතියි.```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "``හායි යාලුවනේ😀! මම දැන් online මේක පුද්ගලික් බොට් සේවාවක්. ♠```\n\n*Version:* ```v3.1 - Globle```\n\n*Developer:* ```RAVANA```\n\n*WhatsApp :* wa.me/94714898434\n\n*Youtube channel :* https://www.youtube.com/channel/UC4WaTaXOPPFP3V6sDBogJug\n\n```RAVANA v3.1 භාවිතා කිරීම ගැන ස්තූතියි.```"})
 
     }
     else {
@@ -55,7 +55,7 @@ else if (Config.WORKTYPE == 'public') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```හායි යාලුවනේ😃!මම දැන් online ඔයාලට මගේ සේවාව ලබාගත හැක. ✨```\n\n*Version:* ```v3.0 - Stable```\n\n*Developer:* ```RAVANA```\n\n*WhatsApp :* wa.me/94714898434\n\n*Youtube channel :* https://www.youtube.com/channel/UC4WaTaXOPPFP3V6sDBogJug\n\n```ස්තූතියි RAVANA v3.0 බොට්ව පාවිච්චි කිරීම පිළිබදව```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```හායි යාලුවනේ😃!මම දැන් online ඔයාලට මගේ සේවාව ලබාගත හැක. ✨```\n\n*Version:* ```v3.0 - Globle```\n\n*Developer:* ```RAVANA```\n\n*WhatsApp :* wa.me/94714898434\n\n*Youtube channel :* https://www.youtube.com/channel/UC4WaTaXOPPFP3V6sDBogJug\n\n```ස්තූතියි RAVANA v3.1 බොට්ව පාවිච්චි කිරීම පිළිබදව```"})
 
     }
     else {
