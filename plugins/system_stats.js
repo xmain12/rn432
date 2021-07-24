@@ -1,4 +1,4 @@
-/* # Exclusively from RAVANA 
+/* # Exclusively from RAVANA BOT
 # Do not use this fore any commercial thing
 # If you abuse thais bot we wil kick you from bot 
 # Do not edit (Respect to the Devaoloper) 
