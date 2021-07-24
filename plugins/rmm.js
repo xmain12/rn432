@@ -14,7 +14,7 @@ if (Config.WORKTYPE == 'private') {
 
         if (match[1] === '') return await message.sendMessage(need);
 
-        var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/modernmetal?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/modernmetal?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by RAVANA*' })
 
@@ -27,7 +27,7 @@ else if (Config.WORKTYPE == 'public') {
 
         if (match[1] === '') return await message.sendMessage(need);
 
-        var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/modernmetal?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/modernmetal?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by RAVANA*' })
 
