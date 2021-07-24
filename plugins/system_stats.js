@@ -66,7 +66,7 @@ else if (Config.WORKTYPE == 'public') {
      }
     }));
     
-    Asena.addCommand({pattern: 'ravana', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
+    Asena.addCommand({pattern: 'ravana', fromMe: false, desc: dd}, (async (message, match) => {   
 
         if (Config.ALIVEMSG == 'default') {
             
