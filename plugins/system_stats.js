@@ -77,9 +77,9 @@ else if (Config.WORKTYPE == 'public') {
     }
     else {
             
-            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+            var image = await axios.get (Config.MENU_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*සැකසුම © 2021  | RAVANA_SL*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.MENUTEXT + '\n\n*සැකසුම © 2021  | RAVANA_SL*' })
      }
     }));
 
