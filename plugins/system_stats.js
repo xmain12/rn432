@@ -1,9 +1,7 @@
-/* Copyright (C) 20211  RAVANA
-
-REEDITE BY RAVANA-SL 
-##v 3.1
-
-Licensed under the  GPL-3.0 License;
+/* # Exclusively from RAVANA 
+# Do not use this fore any commercial thing
+# If you abuse thais bot we wil kick you from bot 
+# Do not edit (Respect to the Devaoloper) 
 */
 
 const Asena = require('../events');
