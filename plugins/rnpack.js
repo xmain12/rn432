@@ -1,3 +1,8 @@
+/* # Exclusively from RAVANA 
+# Do not use this fore any commercial thing
+# If you abuse thais bot we wil kick you from bot 
+# Do not edit (Respect to the Devaoloper) 
+*/
 const Asena = require('../events');
 const Config = require('../config');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
