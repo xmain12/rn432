@@ -32,7 +32,7 @@ if (Config.WORKTYPE == 'private') {
         topText = split[0];
 }
 
-var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -49,7 +49,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/ultragloss?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/ultragloss?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -60,7 +60,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/wicker?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/wicker?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -77,7 +77,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/helloweenfire?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/helloweenfire?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -97,7 +97,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/neontext?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/neontext?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -107,7 +107,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/glossycarbon?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/glossycarbon?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -117,7 +117,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/deluxegold?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/deluxegold?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -127,7 +127,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/chocolatecake?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/chocolatecake?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -137,7 +137,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/rock?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/rock?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -154,7 +154,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/lava?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/lava?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -164,7 +164,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/yellowglass?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/yellowglass?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -174,7 +174,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/robotr2d2?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/robotr2d2?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -184,7 +184,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/goldsparklingjewelry?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/goldsparklingjewelry?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -194,7 +194,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/realisticvintage?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/realisticvintage?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -204,7 +204,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/cloudtext?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/cloudtext?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -221,9 +221,9 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/marvelstudios?text=STUDIO&text2=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/marvelstudios?text=STUDIO&text2=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg , caption: '*MsJessica*\n```powerd by WhatsAsena☇```'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg , caption: Config.CAPTION_KEY})
 
     }));
 
@@ -231,7 +231,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/wolflogoblackwhite?text=RAVANA&text2=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/wolflogoblackwhite?text=RAVANA&text2=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -247,7 +247,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
         bottomText = split[1];
         topText = split[0];
 }
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/steel?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/steel?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -257,7 +257,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/cyanfoilballon?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/cyanfoilballon?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -267,7 +267,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/sandwriting?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/sandwriting?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -277,7 +277,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/sandsummerbeach?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/sandsummerbeach?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -287,7 +287,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/csgo?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/csgo?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -297,7 +297,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/lolpentakill?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/lolpentakill?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -307,7 +307,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/mastery7lol?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/mastery7lol?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
@@ -316,7 +316,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/aov?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/aov?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -325,7 +325,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
         
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/pokemon?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/pokemon?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
         
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
         
@@ -334,7 +334,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
             
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/bevel?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/bevel?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
             
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
             
@@ -343,7 +343,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                 
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/smoketypography?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/smoketypography?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                 
@@ -352,7 +352,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                     
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/rainbowbg?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/rainbowbg?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                     
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                     
@@ -361,7 +361,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                         
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/kueultah?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/kueultah?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                         
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                         
@@ -370,7 +370,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                             
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/fur?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/fur?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                             
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                             
@@ -379,7 +379,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                 
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/crispchrome?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/crispchrome?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                                 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                 
@@ -388,7 +388,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                     
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/stars?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/stars?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                                     
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                     
@@ -397,7 +397,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                         
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/underwebmatrix?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/underwebmatrix?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                                         
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                         
@@ -406,7 +406,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                             
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/lolcover2?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/lolcover2?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                             
@@ -415,8 +415,8 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                                 
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/coveroverwatch?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
-                                                
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/coveroverwatch?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
+                                               
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                                 
     }));
@@ -424,7 +424,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                                     
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/warfacecover?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/warfacecover?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b45bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                                                     
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                                     
@@ -450,7 +450,7 @@ if (Config.WORKTYPE == 'public') {
             topText = split[0];
     }
     
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
        await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -467,7 +467,7 @@ if (Config.WORKTYPE == 'public') {
             topText = split[0];
     }
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/ultragloss?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/ultragloss?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
        await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -478,7 +478,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/wicker?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/wicker?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -495,7 +495,7 @@ if (Config.WORKTYPE == 'public') {
             topText = split[0];
     }
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/helloweenfire?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/helloweenfire?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -515,7 +515,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/neontext?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/neontext?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -525,7 +525,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/glossycarbon?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/glossycarbon?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -535,7 +535,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/deluxegold?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/deluxegold?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -545,7 +545,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/chocolatecake?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/chocolatecake?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -555,7 +555,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/rock?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/rock?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -572,7 +572,7 @@ if (Config.WORKTYPE == 'public') {
             topText = split[0];
     }
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/lava?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/lava?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -582,7 +582,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/yellowglass?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/yellowglass?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -592,7 +592,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/robotr2d2?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/robotr2d2?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -602,7 +602,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/goldsparklingjewelry?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/goldsparklingjewelry?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -612,7 +612,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/realisticvintage?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/realisticvintage?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
        await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -622,7 +622,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/cloudtext?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/cloudtext?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
        await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -639,9 +639,9 @@ if (Config.WORKTYPE == 'public') {
             topText = split[0];
     }
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/marvelstudios?text=STUDIO&text2=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/marvelstudios?text=STUDIO&text2=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
-       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg , caption: '*MsJessica*\n```powerd by WhatsAsena☇```'})
+       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg , caption: Config.CAPTION_KEY})
     
         }));
     
@@ -649,7 +649,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/wolflogoblackwhite?text=RAVANA&text2=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/wolflogoblackwhite?text=RAVANA&text2=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
        await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -665,7 +665,7 @@ if (Config.WORKTYPE == 'public') {
             bottomText = split[1];
             topText = split[0];
     }
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/steel?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/steel?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -675,7 +675,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/cyanfoilballon?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/cyanfoilballon?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -685,7 +685,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/sandwriting?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/sandwriting?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -695,7 +695,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/textpro/sandsummerbeach?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/textpro/sandsummerbeach?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -705,7 +705,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/csgo?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/csgo?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
        await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -715,7 +715,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/lolpentakill?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/lolpentakill?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -725,7 +725,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/mastery7lol?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/mastery7lol?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
@@ -734,7 +734,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
         
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/aov?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/aov?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
         
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
         
@@ -743,7 +743,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
             
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/pokemon?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/pokemon?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
             
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
             
@@ -752,7 +752,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                 
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/bevel?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/bevel?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                 
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                 
@@ -761,7 +761,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                     
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/smoketypography?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/smoketypography?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                     
@@ -770,7 +770,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                         
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/rainbowbg?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/rainbowbg?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                         
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                         
@@ -779,7 +779,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                             
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/kueultah?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/kueultah?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                             
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                             
@@ -788,7 +788,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                 
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/fur?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/fur?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                                 
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                 
@@ -797,7 +797,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                     
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/crispchrome?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/crispchrome?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                                     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                     
@@ -806,7 +806,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                         
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/stars?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/stars?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                                         
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                         
@@ -815,7 +815,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                             
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/underwebmatrix?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/underwebmatrix?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                                             
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                             
@@ -824,7 +824,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                                 
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/lolcover2?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/lolcover2?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                                 
@@ -833,7 +833,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                                     
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/coveroverwatch?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/coveroverwatch?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                                                     
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                                     
@@ -842,7 +842,7 @@ if (Config.WORKTYPE == 'public') {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                                         
-        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/warfacecover?text=${encodeURIComponent(match[1])}&APIKEY=6ffb0caa0165c0e6`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://api.xteam.xyz/photooxy/warfacecover?text=${encodeURIComponent(match[1])}&APIKEY=5bd33b276d41d6b4`, { responseType: 'arraybuffer' })
                                                         
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                                         
