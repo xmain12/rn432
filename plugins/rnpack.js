@@ -3,7 +3,7 @@
 # If you abuse thais bot we wil kick you from bot 
 # Do not edit (Respect to the Devaoloper) 
 */
-const Asena = require('../events');
+const RAVANA = require('../events');
 const Config = require('../config');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
@@ -15,13 +15,23 @@ const NEED_WORD = "*type somr word*"
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'rnpack', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+    RAVANA.addCommand({pattern: 'rnpack', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
 
-    await message.sendMessage("*╔═════⦁⦁⦁⦁RAVANA 3.1⦁⦁⦁⦁═════╗*\n*⫘⫘```RAVANA LOGO PACK```⫘⫘*\n     *RAVANA LOGOS💥*\n\n🎯 Command: *.rnskalt*\n*🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnug*\n*🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnwicker*\n*🧿Description: *It Converts Text to Logo*\n\n*🎯 Command: *.rnhwf*\n*🧿Description: *It Converts Text to  logo\n\n🎯 Command: *.rnneon*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnnt*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rngc*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rndg*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnchocolotcake*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnrock*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnlava*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnyg*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnrobot*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rngs*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnriv*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rncloud*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnmarvals*\n🧿Description: *It Converts Text to Marval Studio logo*\n\n🎯 Command: *.rnwolfblack*\n🧿Description: *It Converts Text to black wolf logo*\n\n🎯 Command: *.rnsteel*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rncfnr*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnsandwriting*\n🧿Description: *It  Text to Logo *\n\n🎯 Command: *.rnsandsb*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rncsgo*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnlp*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnm7l*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnaov*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnpokemon*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnbevel*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnsmoketypography*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnrainbowbg*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnkueultah*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnfur*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rncrispchrome*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnstars*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnunderwebmatrix*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnunderwebmatrix*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnlolcover2*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rncoveroverwatch*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnwarfacecover*\n🧿Description: *It Converts Text to logo*\n\n*RAVANA LOGO PACK*\n\n\n*සමහර ලොගෝ වැඩ නෑ.ඒ වරද අපේ බොට්ගේ නොවේ ලොගෝ දෙන සයිට් වල limit එක බැවින් අපිට එයට කරන්න දෙයක් නැත.*");
+         var r_text = new Array ();
+
+        r_text[1] = "https://telegra.ph/file/d34f1216d80604adb4f43.jpg";
+        r_text[2] ="https://telegra.ph/file/000e36957e64bf5631335.jpg";
+        r_text[3] ="https://telegra.ph/file/0199efbc45fa53c42b610.jpg";
+        r_text[4] ="https://telegra.ph/file/2051703355acecb2ce5c9.jpg";
+        r_text[5] ="https://telegra.ph/file/d2d9e494d6938b6b81a3c.jpg";
+        
+var i = Math.floor(06*Math.random())
+var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
+await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '╔═════⦁⦁⦁⦁RAVANA 3.1⦁⦁⦁⦁═════╗*\n*⫘⫘```RAVANA LOGO PACK```⫘⫘*\n     *RAVANA LOGOS💥*\n\n🎯 Command: *.rnskalt*\n*🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnug*\n*🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnwicker*\n*🧿Description: *It Converts Text to Logo*\n\n*🎯 Command: *.rnhwf*\n*🧿Description: *It Converts Text to  logo\n\n🎯 Command: *.rnneon*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnnt*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rngc*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rndg*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnchocolotcake*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnrock*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnlava*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnyg*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnrobot*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rngs*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnriv*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rncloud*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnmarvals*\n🧿Description: *It Converts Text to Marval Studio logo*\n\n🎯 Command: *.rnwolfblack*\n🧿Description: *It Converts Text to black wolf logo*\n\n🎯 Command: *.rnsteel*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rncfnr*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnsandwriting*\n🧿Description: *It  Text to Logo *\n\n🎯 Command: *.rnsandsb*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rncsgo*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnlp*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnm7l*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnaov*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnpokemon*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnbevel*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnsmoketypography*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnrainbowbg*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnkueultah*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnfur*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rncrispchrome*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnstars*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnunderwebmatrix*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnunderwebmatrix*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnlolcover2*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rncoveroverwatch*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnwarfacecover*\n🧿Description: *It Converts Text to logo*\n\n*RAVANA LOGO PACK*\n\n\n*සමහර ලොගෝ වැඩ නෑ.ඒ වරද අපේ බොට්ගේ නොවේ ලොගෝ දෙන සයිට් වල limit එක බැවින් අපිට එයට කරන්න දෙයක් නැත.'})
         
     }));
 
-    Asena.addCommand({pattern: 'rnskalt ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnskalt ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -38,7 +48,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnug ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnug ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -56,7 +66,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     }));
 
 
-    Asena.addCommand({pattern: 'rnwicker ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnwicker ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -66,7 +76,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnhwf ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnhwf ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -83,7 +93,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnneon ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnneon ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -93,7 +103,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnnt ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnnt ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -103,7 +113,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rngc ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rngc ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -113,7 +123,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rndg ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rndg ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -123,7 +133,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnchocolotcake ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnchocolotcake ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -133,7 +143,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnrock ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnrock ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -143,7 +153,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnlava ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnlava ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -160,7 +170,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnyg ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnyg ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -170,7 +180,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnrobot ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnrobot ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.NEED_WORD);
 
@@ -180,7 +190,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rngs ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rngs ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -190,7 +200,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnriv ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnriv ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -200,7 +210,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rncloud ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rncloud ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -210,7 +220,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnmarvals ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnmarvals ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -227,7 +237,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnwolfblack ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnwolfblack ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -237,7 +247,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnsteel ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnsteel ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -253,7 +263,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rncfn ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rncfn ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -263,7 +273,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnsandwriting ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnsandwriting ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -273,7 +283,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnsandsb ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnsandsb ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -283,7 +293,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rncsgo ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rncsgo ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -293,7 +303,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnlp ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnlp ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -303,7 +313,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 
     }));
 
-    Asena.addCommand({pattern: 'rnm7l ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnm7l ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -312,7 +322,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
 
     }));
-    Asena.addCommand({pattern: 'rnaov ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnaov ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -321,7 +331,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
     }));
-    Asena.addCommand({pattern: 'rnpokemon ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnpokemon ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
         
@@ -330,7 +340,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
         
     }));
-    Asena.addCommand({pattern: 'rnbevel ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnbevel ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
             
@@ -339,7 +349,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
             
     }));
-    Asena.addCommand({pattern: 'rnsmoketypography ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnsmoketypography ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                 
@@ -348,7 +358,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                 
     }));
-    Asena.addCommand({pattern: 'rnrainbowbg ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnrainbowbg ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                     
@@ -357,7 +367,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                     
     }));
-    Asena.addCommand({pattern: 'rnkueultah ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnkueultah ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                         
@@ -366,7 +376,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                         
     }));
-    Asena.addCommand({pattern: 'rnfur ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnfur ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                             
@@ -375,7 +385,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                             
     }));
-    Asena.addCommand({pattern: 'rncrispchrome ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rncrispchrome ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                 
@@ -384,7 +394,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                 
     }));
-    Asena.addCommand({pattern: 'rnstars ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnstars ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                     
@@ -393,7 +403,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                     
     }));
-    Asena.addCommand({pattern: 'rnunderwebmatrix ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnunderwebmatrix ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                         
@@ -402,7 +412,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                         
     }));
-    Asena.addCommand({pattern: 'rnlolcover2 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnlolcover2 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                             
@@ -411,7 +421,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                             
     }));
-    Asena.addCommand({pattern: 'rncoveroverwatch ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rncoveroverwatch ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                                 
@@ -420,7 +430,7 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                                 
     }));
-    Asena.addCommand({pattern: 'rnwarfacecover ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnwarfacecover ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                                     
@@ -433,13 +443,13 @@ var webimage = await axios.get(`https://api.xteam.xyz/textpro/skeleton?text=${en
 }
 if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'rnpack', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+    RAVANA.addCommand({pattern: 'rnpack', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
 
     await message.sendMessage("*╔═════⦁⦁⦁⦁RAVANA 3.1⦁⦁⦁⦁═════╗*\n*⫘⫘```RAVANA LOGO PACK```⫘⫘*\n     *RAVANA LOGOS💥*\n\n🎯 Command: *.rnskalt*\n*🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnug*\n*🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnwicker*\n*🧿Description: *It Converts Text to Logo*\n\n*🎯 Command: *.rnhwf*\n*🧿Description: *It Converts Text to  logo\n\n🎯 Command: *.rnneon*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnnt*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rngc*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rndg*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnchocolotcake*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnrock*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnlava*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnyg*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnrobot*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rngs*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnriv*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rncloud*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnmarvals*\n🧿Description: *It Converts Text to Marval Studio logo*\n\n🎯 Command: *.rnwolfblack*\n🧿Description: *It Converts Text to black wolf logo*\n\n🎯 Command: *.rnsteel*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rncfnr*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnsandwriting*\n🧿Description: *It  Text to Logo *\n\n🎯 Command: *.rnsandsb*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rncsgo*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnlp*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnm7l*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnaov*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnpokemon*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnbevel*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnsmoketypography*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rnrainbowbg*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnkueultah*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnfur*\n🧿Description: *It Converts Text to Logo*\n\n🎯 Command: *.rncrispchrome*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnstars*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnunderwebmatrix*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnunderwebmatrix*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnlolcover2*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rncoveroverwatch*\n🧿Description: *It Converts Text to logo*\n\n🎯 Command: *.rnwarfacecover*\n🧿Description: *It Converts Text to logo*\n\n*RAVANA LOGO PACK*\n\n\n*සමහර ලොගෝ වැඩ නෑ.ඒ වරද අපේ බොට්ගේ නොවේ ලොගෝ දෙන සයිට් වල limit එක බැවින් අපිට එයට කරන්න දෙයක් නැත.*");
         
     }));
 
-    Asena.addCommand({pattern: 'rnskalt ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rnskalt ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
       
@@ -456,7 +466,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnug ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnug ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
       
@@ -474,7 +484,7 @@ if (Config.WORKTYPE == 'public') {
         }));
     
     
-        Asena.addCommand({pattern: 'rnwicker ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnwicker ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -484,7 +494,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnhwf ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnhwf ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
       
@@ -501,7 +511,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnneon ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnneon ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -511,7 +521,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnnt ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnnt ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -521,7 +531,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rngc ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rngc ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -531,7 +541,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rndg ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rndg ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -541,7 +551,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnchocolotcake ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnchocolotcake ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -551,7 +561,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnrock ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnrock ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -561,7 +571,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnlava ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnlava ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
       
@@ -578,7 +588,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnyg ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnyg ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -588,7 +598,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnrobot ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnrobot ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.NEED_WORD);
     
@@ -598,7 +608,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rngs ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rngs ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -608,7 +618,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnriv ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnriv ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -618,7 +628,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rncloud ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rncloud ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -645,7 +655,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnwolfblack ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnwolfblack ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -655,7 +665,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnsteel ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnsteel ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -671,7 +681,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rncfn ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rncfn ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -681,7 +691,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnsandwriting ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnsandwriting ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -691,7 +701,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnsandsb ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnsandsb ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -701,7 +711,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rncsgo ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rncsgo ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -711,7 +721,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnlp ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnlp ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -721,7 +731,7 @@ if (Config.WORKTYPE == 'public') {
     
         }));
     
-        Asena.addCommand({pattern: 'rnm7l ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnm7l ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
     
@@ -730,7 +740,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
     
         }));
-        Asena.addCommand({pattern: 'rnaov ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnaov ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
         
@@ -739,7 +749,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
         
         }));
-        Asena.addCommand({pattern: 'rnpokemon ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnpokemon ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
             
@@ -748,7 +758,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
             
         }));
-        Asena.addCommand({pattern: 'rnbevel ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnbevel ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                 
@@ -757,7 +767,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                 
         }));
-        Asena.addCommand({pattern: 'rnsmoketypography ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnsmoketypography ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                     
@@ -766,7 +776,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                     
         }));
-        Asena.addCommand({pattern: 'rnrainbowbg ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnrainbowbg ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                         
@@ -775,7 +785,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                         
         }));
-        Asena.addCommand({pattern: 'rnkueultah ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnkueultah ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                             
@@ -784,7 +794,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                             
         }));
-        Asena.addCommand({pattern: 'rnfur ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnfur ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                 
@@ -793,7 +803,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                 
         }));
-        Asena.addCommand({pattern: 'rncrispchrome ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rncrispchrome ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                     
@@ -802,7 +812,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                     
         }));
-        Asena.addCommand({pattern: 'rnstars ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnstars ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                         
@@ -811,7 +821,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                         
         }));
-        Asena.addCommand({pattern: 'rnunderwebmatrix ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnunderwebmatrix ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                             
@@ -820,7 +830,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                             
         }));
-        Asena.addCommand({pattern: 'rnlolcover2 ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnlolcover2 ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                                 
@@ -829,7 +839,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                                 
         }));
-        Asena.addCommand({pattern: 'rncoveroverwatch ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rncoveroverwatch ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                                     
@@ -838,7 +848,7 @@ if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
                                                     
         }));
-        Asena.addCommand({pattern: 'rnwarfacecover ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'rnwarfacecover ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     
         if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
                                                         
