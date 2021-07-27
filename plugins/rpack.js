@@ -9,11 +9,11 @@ RAVANA.addCommand({pattern: 'rpack', fromMe: true, deleteCommand: false,}, (asyn
 
 	        var r_text = new Array ();
 
-        r_text[1] = "https://telegra.ph/file/0d5425a8dd1b5ad3e3d81.jpg";
-        r_text[2] ="https://telegra.ph/file/4efb53aba19b0f1ccad12.jpg";
-        r_text[3] ="https://telegra.ph/file/7e18f85e60d0fe643c5d4.jpg";
-        r_text[4] ="https://telegra.ph/file/7b068a15a9b0adb97064d.jpg";
-        r_text[5] ="https://telegra.ph/file/b92174516f031df6ebd26.jpg";
+        r_text[1] = "https://telegra.ph/file/d34f1216d80604adb4f43.jpg";
+        r_text[2] ="https://telegra.ph/file/000e36957e64bf5631335.jpg";
+        r_text[3] ="https://telegra.ph/file/0199efbc45fa53c42b610.jpg";
+        r_text[4] ="https://telegra.ph/file/2051703355acecb2ce5c9.jpg";
+        r_text[5] ="https://telegra.ph/file/d2d9e494d6938b6b81a3c.jpg";
         
 var i = Math.floor(06*Math.random())
 var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
@@ -26,11 +26,11 @@ else if (Config.WORKTYPE == 'public') {
 
 	        var r_text = new Array ();
 
-        r_text[1] = "https://telegra.ph/file/0d5425a8dd1b5ad3e3d81.jpg";
-        r_text[2] ="https://telegra.ph/file/4efb53aba19b0f1ccad12.jpg";
-        r_text[3] ="https://telegra.ph/file/7e18f85e60d0fe643c5d4.jpg";
-        r_text[4] ="https://telegra.ph/file/7b068a15a9b0adb97064d.jpg";
-        r_text[5] ="https://telegra.ph/file/b92174516f031df6ebd26.jpg";
+        r_text[1] = "https://telegra.ph/file/d34f1216d80604adb4f43.jpg";
+        r_text[2] ="https://telegra.ph/file/000e36957e64bf5631335.jpg";
+        r_text[3] ="https://telegra.ph/file/0199efbc45fa53c42b610.jpg";
+        r_text[4] ="https://telegra.ph/file/2051703355acecb2ce5c9.jpg";
+        r_text[5] ="https://telegra.ph/file/d2d9e494d6938b6b81a3c.jpg";
         
 var i = Math.floor(06*Math.random())
 var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
