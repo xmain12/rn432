@@ -21,3 +21,9 @@ Asena.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList:
     await message.client.modifyChat (message.jid, ChatModification.delete);
     await message.sendMessage('```🚮 Chat cleared from RAVANA```');
 }));
+
+Asena.addCommand({pattern: 'owner', fromMe: false}, (async (message, match) => {
+
+    await message.sendMessage(Config.OWNER);
+
+}));
