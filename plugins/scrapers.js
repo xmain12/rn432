@@ -1397,9 +1397,7 @@ else if (config.WORKTYPE == 'public') {
 
                 });
 
-            } catch (err) {
-                await message.reply(`Error : \n${err.message}`, MessageType.text)
-            }
+            } 
         } 
         else {
             return await message.client.sendMessage(
