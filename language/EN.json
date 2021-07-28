@@ -4,7 +4,7 @@
     "LANGCODE": "en",
     "AUTHOR": "AsenaDev",
     "STRINGS": {
-        "_asena": {
+        "_ravana": {
             "COMMAND": "Command",
             "DESC": "Description",
             "EXAMPLE": "Example",
@@ -186,12 +186,12 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Naadan Vibe```",
             "NO_RESULT": "*මට කිසිවක් සොයාගත නොහැකි විය :(*",
-            "DOWNLOADING_SONG": "\n*ඉන්න මම සිංදුව තියනවද කියලා බලන්නම්🙃*\n",
-            "UPLOADING_SONG": "\n*සිංදුව හම්බ උනා ඉන්න දානවා😌 හරිද කියලා මට කියන්න☺️*\n",
+            "DOWNLOADING_SONG": "\n*Downloading your song...*\n",
+            "UPLOADING_SONG": "\n*Uploading song...*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```මම වීඩියෝ එක තියනවද කියලා බලලා එන්නම් 😉...```",
-            "UPLOADING_VIDEO": "```ආ හම්බුනා 𝐦𝐛 100ට අඩුනම් දැන් එයි....😇 ලස්සනද කියලා මටත් කියන්න😍...```",
+            "DOWNLOADING_VIDEO": "```Downloading video...```",
+            "UPLOADING_VIDEO": "```Uploading video...```",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```මම යූටියුබ් පැත්‍තෙ ගිහින් ලින්ක් ටිකක් අරන් එන්නම් ඔහොමම ඉන්න🤗...```",
@@ -204,7 +204,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```convorting 🤠```"
+            "DOWNLOADING": "```RAVANA BOT convorting```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
