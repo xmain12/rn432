@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* Copyright (C) 2021 RAVANA-SL.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-WhatsAsena - Yusuf Usta
+RAVANA - RAVANA - SL
 */
 
 const Asena = require('../events');
@@ -11,7 +11,7 @@ const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 
 const Language = require('../language');
-const Lang = Language.getString('_asena');
+const Lang = Language.getString('_ravana');
 
 if (Config.WORKTYPE == 'private') {
 
