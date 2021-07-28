@@ -1389,7 +1389,7 @@ else if (config.WORKTYPE == 'public') {
                 await message.reply(`Error : \n${err.message}`, MessageType.text)
             }
         } 
-        else if (match[1] === "lk" || match[1] === "Lk" || match[1] === "sl" || match[1].includes('srilanka') ) {
+        else if (match[1] === "Lk" || match[1] === "lk" || match[1] === "sl" || match[1].includes('Sri Lanka') ) {
             try{
                 const respo = await got("https://coronavirus-19-api.herokuapp.com/countries/Sri Lanka").then(async ok  => {
                     resp = JSON.parse(ok.body);
@@ -1397,7 +1397,9 @@ else if (config.WORKTYPE == 'public') {
 
                 });
 
-            } 
+            } catch (err) {
+                await message.reply(`Error : \n${err.message}`, MessageType.text)
+            }
         } 
         else {
             return await message.client.sendMessage(
