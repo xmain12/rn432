@@ -45,7 +45,7 @@ module.exports = {
     MENUTEXT: process.env.MENU_TEXT === undefined ?'*RAVANA💢*' : process.env.MENU_TEXT,
     MENU_LOGO: process.env.MENU_LOGO === undefined ?  'https://telegra.ph/file/000e36957e64bf5631335.jpg' : process.env.MENU_LOGO,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    OWNER : process.env.OWNER === undefined ? '*🇱🇰 Ravana-Sl™*\n\n```Follow on GutHub```\n🚀 https://github.com/RAVANA-SL/slRavana\n\n```Subscrib Youtube Channel```\n🚀 https://youtube.com/channel/UC4WaTaXOPPFP3V6sDBogJug\n\n```Support Group``\n🚀 https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP\n\n*Thank you.👼*' : process.env.OWNER,
+    OWNER : process.env.OWNER === undefined ? '*🇱🇰 Ravana-Sl™*\n\n```Follow on GutHub```\n🚀 https://github.com/RAVANA-SL/slRavana\n\n```Subscrib Youtube Channel```\n🚀 https://youtube.com/channel/UC4WaTaXOPPFP3V6sDBogJug\n\n```Support Group```\n🚀 https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP\n\n*Thank you. ✉*' : process.env.OWNER,
     BRANCH: 'master',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
