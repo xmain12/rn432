@@ -1,4 +1,4 @@
-/* Codded by @phaticusthiccy
+/*fuck
 Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
 */
