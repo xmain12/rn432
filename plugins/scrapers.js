@@ -494,7 +494,7 @@ if (config.WORKTYPE == 'private') {
             try{
                 const respo = await got("https://coronavirus-19-api.herokuapp.com/countries/Sri Lanka").then(async ok  => {
                     resp = JSON.parse(ok.body);
-                    await message.reply(`🇳🇱 *Datas for Netherlands:*\n😷 *Total Cases:* ${resp.cases}\n🏥 *Daily Cases:* ${resp.todayCases}\n⚰️ *Total Deaths:* ${resp.deaths}\n☠️ *Daily Deaths:* ${resp.todayDeaths}\n💊 *Total Recovered:* ${resp.recovered}\n😷 *Active Cases:* ${resp.active}\n🆘 *Critical Cases:* ${resp.critical}\n🧪 *Total Test:* ${resp.totalTests}`);
+                    await message.reply(`🇳🇱 *Datas for Sri Lanka:*\n😷 *සම්පූර්ණ වාර්තාවීම්:* ${resp.cases}\n🏥 *අදදින වාර්තාවීම්:* ${resp.todayCases}\n⚰️ *මුළු මරණ සංඛ්‍යාව:* ${resp.deaths}\n☠️ *අද දින මරණ :* ${resp.todayDeaths}\n💊 *සුවය ලැබූ මුළු ගණන:* ${resp.recovered}\n😷 *සක්‍රිය වාර්තාවීම්:* ${resp.active}\n🆘 *තහවුරු නොවූ:* ${resp.critical}\n🧪 *පරීක්ෂා කර ඇති මුළු ගණන:* ${resp.totalTests}`);
 
                 });
 
@@ -932,6 +932,18 @@ else if (config.WORKTYPE == 'public') {
                 const respo = await got("https://coronavirus-19-api.herokuapp.com/countries/Netherlands").then(async ok  => {
                     resp = JSON.parse(ok.body);
                     await message.reply(`🇳🇱 *Datas for Netherlands:*\n😷 *Total Cases:* ${resp.cases}\n🏥 *Daily Cases:* ${resp.todayCases}\n⚰️ *Total Deaths:* ${resp.deaths}\n☠️ *Daily Deaths:* ${resp.todayDeaths}\n💊 *Total Recovered:* ${resp.recovered}\n😷 *Active Cases:* ${resp.active}\n🆘 *Critical Cases:* ${resp.critical}\n🧪 *Total Test:* ${resp.totalTests}`);
+
+                });
+
+            } catch (err) {
+                await message.reply(`Error : \n${err.message}`, MessageType.text)
+            }
+        } 
+        else if (match[1] === "lk" || match[1] === "Lk" || match[1] === "sl" || match[1].includes('srilanka') ) {
+            try{
+                const respo = await got("https://coronavirus-19-api.herokuapp.com/countries/Sri Lanka").then(async ok  => {
+                    resp = JSON.parse(ok.body);
+                    await message.reply(`🇳🇱 *Datas for Sri Lanka:*\n😷 *සම්පූර්ණ වාර්තාවීම්:* ${resp.cases}\n🏥 *අදදින වාර්තාවීම්:* ${resp.todayCases}\n⚰️ *මුළු මරණ සංඛ්‍යාව:* ${resp.deaths}\n☠️ *අද දින මරණ :* ${resp.todayDeaths}\n💊 *සුවය ලැබූ මුළු ගණන:* ${resp.recovered}\n😷 *සක්‍රිය වාර්තාවීම්:* ${resp.active}\n🆘 *තහවුරු නොවූ:* ${resp.critical}\n🧪 *පරීක්ෂා කර ඇති මුළු ගණන:* ${resp.totalTests}`);
 
                 });
 
