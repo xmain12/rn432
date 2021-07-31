@@ -116,10 +116,10 @@ else if (cn.WORKTYPE == 'public') {
 
     }));
 	
-    Asena.addCommand({ pattern: 'tiktok ?(.*)', fromMe: false, desc: Tlang.TİKTOK }, async (message, match) => {
+    Asena.addCommand({ pattern: 'tiktok ?(.*)', fromMe: false, desc: Lang.TİKTOK }, async (message, match) => {
         const userName = match[1]
-        if (!userName) return await message.client.sendMessage(message.jid, Tlang.NEED, MessageType.text)
-        await message.client.sendMessage(message.jid, Tlang.DOWN, MessageType.text)
+        if (!userName) return await message.client.sendMessage(message.jid, Lang.NEED, MessageType.text)
+        await message.client.sendMessage(message.jid, Lang.DOWN, MessageType.text)
         await axios
           .get(`https://api.xteam.xyz/dl/tiktok?url=${userName}&APIKEY=5bd33b276d41d6b4`)
           .then(async (response) => {
@@ -134,7 +134,7 @@ else if (cn.WORKTYPE == 'public') {
             })
           })
           .catch(
-            async (err) => await message.client.sendMessage(message.jid, Tlang.NOT + userName, MessageType.text),
+            async (err) => await message.client.sendMessage(message.jid, Lang.NOT + userName, MessageType.text),
           )
       },
     )
