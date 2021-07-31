@@ -130,7 +130,7 @@ else if (cn.WORKTYPE == 'public') {
               responseType: 'arraybuffer',
             })
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: 'Made by WhatsAsena',
+              caption: 'Made by RAVANA',
             })
           })
           .catch(
