@@ -1,3 +1,6 @@
+/* RAVANA BOT */
+
+
 const RAVANA = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const GM = "it sends good morning message"
