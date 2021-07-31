@@ -119,7 +119,7 @@ else if (cn.WORKTYPE == 'public') {
         });
 
     }));
-    Asena.addCommand({ pattern: 'tiktok ?(.*)', fromMe: false, desc: Tlang.TİKTOK }, async (message, match) => {
+    Asena.addCommand({ pattern: 'tiktok ?(.*)', fromMe: false, dontAddCommandList: true}, async (message, match) => {
 
         const userName = match[1]
 
