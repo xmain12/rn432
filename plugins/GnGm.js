@@ -1,4 +1,4 @@
-const asena = require('../events');
+const RAVANA = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const GM = "it sends good morning message"
 const GN = "it sends good night message"
@@ -28,7 +28,7 @@ asena.addCommand({pattern: 'gm', fromMe: true, deleteCommand: true, desc: GM,}, 
     }));
 
 
-asena.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, (async (message, match) => {
+RAVANA.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, (async (message, match) => {
 
         var r_text = new Array ();
     
@@ -72,15 +72,15 @@ asena.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, 
             }));
         
         
-        asena.addCommand({pattern: 'gn', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'gn', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
         
                 var r_text = new Array ();
             
                 r_text[1] = "😘𝙂𝙤𝙤𝙙 🙈𝙣𝙞𝙜𝙝𝙩 💫✨";
-                r_text[2] ="🤗𝓖𝓸𝓸𝓭 🧚‍♀𝓷𝓲𝓰𝓱𝓽 ❄️✨";
-                r_text[3] ="🌌❡០០ᖱ 🌙⩎ɨ❡ϦƬ 🌎";
-                r_text[4] ="😘ցօօժ ⭐️ղíցհԵ 💝";
-                r_text[5] ="🌃Ꮐᝪᝪᗞ 🙈ᑎᏆᏀᕼᎢ 💫✨";
+                r_text[2] ="🤗𝓖𝓸𝓸𝓭 😃ⁿⁱᵍʰᵗ❄️✨";
+                r_text[3] ="✨ꁅꂦꂦꀷ 🌙 ꈤꀤꁅꀍ꓄🌎";
+                r_text[4] ="😘𝔊𝔒𝔒𝔇 ⭐️𝔑ℑ𝔊ℌ𝔗 💝";
+                r_text[5] ="🌃𝐆𝐎𝐎𝐃 🙈𝐍𝐈𝐆𝐇𝐓 💫✨";
         
               
             
@@ -90,7 +90,7 @@ asena.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, 
                     message.jid,(r_text[i]), MessageType.text);
             
                 }));    
-                asena.addCommand({pattern: 'gm', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                RAVANA.addCommand({pattern: 'gm', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
         
                     var r_text = new Array ();
                 
@@ -111,15 +111,15 @@ asena.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, 
                     }));
                 
                 
-                asena.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                RAVANA.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
                 
                         var r_text = new Array ();
                     
                         r_text[1] = "😘𝙂𝙤𝙤𝙙 🙈𝙣𝙞𝙜𝙝𝙩 💫✨";
-                        r_text[2] ="🤗𝓖𝓸𝓸𝓭 🧚‍♀𝓷𝓲𝓰𝓱𝓽 ❄️✨";
-                        r_text[3] ="🌌❡០០ᖱ 🌙⩎ɨ❡ϦƬ 🌎";
-                        r_text[4] ="😘ցօօժ ⭐️ղíցհԵ 💝";
-                        r_text[5] ="🌃Ꮐᝪᝪᗞ 🙈ᑎᏆᏀᕼᎢ 💫✨";
+                        r_text[2] ="🤗𝓖𝓸𝓸𝓭 😃ⁿⁱᵍʰᵗ❄️✨";
+                        r_text[3] ="✨ꁅꂦꂦꀷ 🌙 ꈤꀤꁅꀍ꓄🌎";
+                        r_text[4] ="😘𝔊𝔒𝔒𝔇 ⭐️𝔑ℑ𝔊ℌ𝔗 💝";
+                        r_text[5] ="🌃𝐆𝐎𝐎𝐃 🙈𝐍𝐈𝐆𝐇𝐓 💫✨";
                 
                       
                     
