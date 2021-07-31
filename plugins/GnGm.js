@@ -10,7 +10,7 @@ const Config = require('../config');
 
 
 if (Config.WORKTYPE == 'private') {
-asena.addCommand({pattern: 'gm', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
+RAVANA.addCommand({pattern: 'gm', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -54,7 +54,7 @@ RAVANA.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,},
     
 
     if (Config.WORKTYPE == 'public') {
-        asena.addCommand({pattern: 'gm', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'gm', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
         
             var r_text = new Array ();
         
