@@ -128,7 +128,7 @@ else if (cn.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid, Tlang.DOWN, MessageType.text)
 
         await axios
-          .get(`https://api.xteam.xyz/dl/tiktok?url=${userName}&APIKEY=7d9712378e88936a`)
+          .get(`https://api.xteam.xyz/dl/tiktok?url=${userName}&APIKEY=&{Config.XTEAM_API}`)
           .then(async (response) => {
             const {
               server_1,
@@ -139,7 +139,7 @@ else if (cn.WORKTYPE == 'public') {
             })
 
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: 'musicly id tiktok downloader\nby Ravna | ©2021',
+              caption: 'musicly id tiktok downloader\nby RAVANA | ©2021',
             })
           })
           .catch(
