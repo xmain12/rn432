@@ -1,4 +1,7 @@
-/*RAVANA BOT ANTISPAM*/
+/*RAVANA BOT ANTISPAM
+
+Creadits - RAVANA OWNERS
+*/
 
 const RAVANA = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
