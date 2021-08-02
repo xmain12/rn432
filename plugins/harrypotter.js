@@ -73,7 +73,7 @@ RAVANA.addCommand({pattern: 'hpc', fromMe: true, deleteCommand: true, desc: HPC,
     
 
     if (Config.WORKTYPE == 'public') {
-        RAVANA.addCommand({pattern: 'hps', fromMe: true, deleteCommand: false, desc: HPS,}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'hps', fromMe: false, deleteCommand: true, desc: HPS,}, (async (message, match) => {
 
             var r_text = new Array ();
         
@@ -97,7 +97,7 @@ RAVANA.addCommand({pattern: 'hpc', fromMe: true, deleteCommand: true, desc: HPC,
             }));
         
         
-        RAVANA.addCommand({pattern: 'hpc', fromMe: true, deleteCommand: false, desc: HPC,}, (async (message, match) => {
+        RAVANA.addCommand({pattern: 'hpc', fromMe: false, deleteCommand: true, desc: HPC,}, (async (message, match) => {
         
                 var r_text = new Array ();
             
