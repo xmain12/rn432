@@ -17,13 +17,13 @@
 */
 
 function successfullMessage(msg) {
-    return "*setting up*" + msg + "```"
+    return "*setting up*  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "*an error*" + msg + "```"
+    return "*an error*  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "*ravana*" + msg + "```"
+    return "*ravana*  ```" + msg + "```"
 }
 
 
