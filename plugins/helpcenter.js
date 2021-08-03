@@ -11,7 +11,7 @@ const HELP = "Bot help Center"
 
 RAVANA.addCommand({pattern: 'rhelp', fromMe: true, deleteCommand: true, desc: HELP,}, (async (message, match) => {
 
-    await message.sendMessage("*🇱🇰HELLOW THIS IS RAVANA HELP CENTER🇱🇰* \n\n✨What's Your Problem \n\n\n▶සිංදු වීඩියෝ එන්නේ නෑ(.1) \n\n▶ලොගෝ වැඩ නෑ(.2)\n\n▶Alive එක වැඩ කරන්නේ නෑ(.3)\n\n▶Shutdown කරාම on කරන්නේ කොහොමද(.4) \n\n▶බොට් එක පාරම වැඩ නැතුව ගියොත් මොකද කරන්නේ(.5) \n\n▶වෙනත්(.6) \n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
+    await message.sendMessage("*🇱🇰HELLOW THIS IS RAVANA HELP CENTER🇱🇰* \n\n✨What's Your Problem \n\n\n▶සිංදු වීඩියෝ එන්නේ නෑ(.1) \n\n▶ලොගෝ වැඩ නෑ(.2)\n\n▶Alive එක වැඩ කරන්නේ නෑ(.3)\n\n▶Shutdown කරාම on කරන්නේ කොහොමද(.4) \n\n▶බොට් එක පාරම වැඩ නැතුව ගියොත් මොකද කරන්නේ(.5)\n\n▶කොහොමද බොට්ගේ කමාන්ඩ් ටික ගන්නේ(.6) \n\n▶බොට් ගේ කමාන්ඩ් අපිට වැඩ නැත්තේ ඇයි(.7) \n\n▶වෙනත්(.8) \n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
 
 }));
 RAVANA.addCommand({pattern: '1', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
@@ -40,6 +40,16 @@ RAVANA.addCommand({pattern: '5', fromMe: true, dontAddCommandList: true}, (async
 
 }));
 RAVANA.addCommand({pattern: '6', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+
+    await message.sendMessage("*බොට් හට .ravana හෝ .help ගසන්න.*\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
+
+}));
+RAVANA.addCommand({pattern: '7', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+
+    await message.sendMessage("*ඔබගේ බොට් public නම් එය ඔබට වැඩ නෑ අනිත් අයට වැඩ *\nඑය private කිරීමටනම්\n.setvar WORK_TYPE:private\n\nනැවත public කිරීමට\n .setvar WORK_TYPE:public\n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
+
+}));
+RAVANA.addCommand({pattern: '8', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     await message.sendMessage("*ප්‍රශ්නය අපගේ whatsapp supposed group https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP එක තුලට හෝ මෙම නම්බර් එකට දාන්න wa.me/94756872976*\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
 
