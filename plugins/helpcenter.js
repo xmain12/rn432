@@ -46,7 +46,7 @@ RAVANA.addCommand({pattern: '6', fromMe: true, dontAddCommandList: true}, (async
 }));
 RAVANA.addCommand({pattern: '7', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
-    await message.sendMessage("*ඔබගේ බොට් public නම් එය ඔබට වැඩ නෑ අනිත් අයට වැඩ *\nඑය private කිරීමටනම්\n.setvar WORK_TYPE:private\n\nනැවත public කිරීමට\n .setvar WORK_TYPE:public\n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
+    await message.sendMessage("*ඔබගේ බොට් public නම් එය ඔබට වැඩ නෑ අනිත් අයට වැඩ* \n\nඑය private කිරීමටනම්\n.setvar WORK_TYPE:private\n\nනැවත public කිරීමට\n .setvar WORK_TYPE:public\n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
 
 }));
 RAVANA.addCommand({pattern: '8', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
