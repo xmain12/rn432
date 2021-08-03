@@ -7,7 +7,7 @@
 
 const RAVANA  = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
-const HELP = "it sends good morning message"
+const HELP = "Bot help Center"
 
 RAVANA.addCommand({pattern: 'rhelp', fromMe: true, deleteCommand: true, desc: HELP,}, (async (message, match) => {
 
