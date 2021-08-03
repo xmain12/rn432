@@ -7,8 +7,9 @@
 
 const RAVANA  = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
+const HELP = "it sends good morning message"
 
-RAVANA.addCommand({pattern: 'rhelp', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({pattern: 'rhelp', fromMe: true, deleteCommand: true, desc: HELP,}, (async (message, match) => {
 
     await message.sendMessage("*🇱🇰HELLOW THIS IS RAVANA HELP CENTER🇱🇰* \n\n✨What's Your Problem \n\n\n▶සිංදු වීඩියෝ එන්නේ නෑ(.1) \n\n▶ලොගෝ වැඩ නෑ(.2)\n\n▶Alive එක වැඩ කරන්නේ නෑ(.3)\n\n▶Shutdown කරාම on කරන්නේ කොහොමද(.4) \n\n▶බොට් එක පාරම වැඩ නැතුව ගියොත් මොකද කරන්නේ(.5) \n\n▶වෙනත්(.6) \n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
 
