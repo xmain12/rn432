@@ -139,7 +139,7 @@ else if (cn.WORKTYPE == 'public') {
             })
 
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: 'musicly id tiktok downloader\n ' +Confif.CAPTION_KEY+ '| ©2021',
+              caption: 'musicly id tiktok downloader\n ' +Config.CAPTION_KEY+ '| ©2021',
             })
           })
           .catch(
