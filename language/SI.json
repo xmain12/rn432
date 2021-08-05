@@ -511,7 +511,7 @@
             "PUBLIC": "🔓 පොදු",
             "HIDDEN": "🔒 සැඟවුණු",
             "PROPIC": "🖼 පැතිකඩ පින්තූරය"
-        }
+        },
          "github": {
             "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github RAVANA-SL",
             "REPLY": "```You Need To Type Any Username!```",
