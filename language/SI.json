@@ -217,7 +217,7 @@
         "updater": {
             "UPDATER_DESC": "update පරීක්ෂා කරයි.",
             "UPDATE": "*ඔබේ බොට් සම්පූර්ණයෙන්ම යාවත්කාලීන වේ!*",
-            "NEW_UPDATE": "*බොට් සඳහා නව  update එකක්!*\n\nChanges:\n```",
+            "NEW_UPDATE": "*RAVANA Update Available*\n\nයාවත්කාලීන කිරීමට පෙර කරුණාකර සහාය කණ්ඩායමෙන් විමසන්න https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP. එසේ නොමැතිනම් දෝෂයක් ඇතිවීමේ අවස්ථාව  ඇත\n\nවෙනස්කම්:\n```",
             "UPDATE_NOW_DESC": "එය යාවත්කාලීන කිරීම් කරයි.",
             "UPDATING": "_Updating..._",
             "INVALID_HEROKU": "*❌ ඔබේ හෙරෝකූ තොරතුරු වැරදියි!*",
