@@ -89,7 +89,7 @@ if (config.WORKTYPE == 'private') {
         }
     }));
 
-    if (config.LANG == 'TR' || config.LANG == 'AZ') {
+    if (config.LANG == 'TR' || config.LANG == 'SI') {
 
         Asena.addCommand({pattern: 'tts (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
 
