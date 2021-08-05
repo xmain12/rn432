@@ -26,24 +26,24 @@
             "DELETED": "*✅ Module successfully deleted!*"
         },
         "admin": {
-            "BAN_DESC": "කණ්ඩායමේ කෙනෙකු තහනම් කරන්න. පණිවිඩයට පිළිතුරු දෙන්න හෝ විධානය භාවිතා කිරීමට පුද්ගලයෙකු ටැග් කරන්න.",
-            "IM_NOT_ADMIN": "*මම මේ ගෲප් එකේ පරිපාලකයා නොවේ☹️*",
-            "BANNED": "ඔයානම් මාර සාපයක් මේ ගෲප් එකට🤬!",
-            "GIVE_ME_USER": "*මට පරිශීලකයෙක් දෙන්න😈!*",
+            "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
+            "IM_NOT_ADMIN": "*I am not admin in this group!*",
+            "BANNED": "kicked out of the group!",
+            "GIVE_ME_USER": "*Give me a user!*",
             "ADD_DESC": "Adds someone to the group.",
-            "ADDED": "ගෲප් එකට Add කරා!",
-            "ALREADY_PROMOTED": "```දැනටමත් පරිපාලකදූරයේ සිටී🙃```",
-            "PROMOTED": "```පරිපාලක දූරය ලබා දෙන ලදි!```",
-            "PROMOTE_DESC": "පුද්ගලයෙකු පරිපාලකයෙකු කිරීම.",
+            "ADDED": "added to the group!",
+            "ALREADY_PROMOTED": "```How can I make someone admin who is already admin?```",
+            "PROMOTED": "```, admin role was given!```",
+            "PROMOTE_DESC": "Makes any person an admin.",
             "DEMOTE_DESC": "Takes the authority of any admin.",
             "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
             "DEMOTED": "```, has been demoted!```",
-            "MUTE_DESC": "Mute the group chat. Only the admins can send a message.",
-            "MUTED": "```ගෲප් එක මදකට mute කරා ඉන්න පොඩ්ඩක්😃!```",
-            "UNMUTE_DESC": "ගෲප් එක unmute. Anyone can send a message.",
-            "UNMUTED": "```ඔන්න හරි දැන් ගෲප් එක unmute😃!```",
+            "MUTE_DESC": "Mute the group chat. Only the admins can send a message.\n⌨️ Example: .mute & .mute 5m etc",
+            "MUTED": "```Group chat muted!```",
+            "UNMUTE_DESC": "Unmute the group chat. Anyone can send a message.",
+            "UNMUTED": "```The group chat has unmuted!```",
             "INVITE_DESC": "Provides the group's invitation link.",
-            "INVITE": "```මෙම whatsapp සමූහයේ link එක: ```"
+            "INVITE": "```Invitation link: ```"
         },
         "locate": {
             "L_DESC": "It send your location.",
@@ -56,11 +56,11 @@
             "REASON": "Reason",
             "LAST_SEEN": "Last Seen",
             "IM_NOT_AFK": "```I am not AFK anymore!```",
-            "AFK_TEXT": "```මගේ අයිතිකාරයා මේ අවස්තාවේ වැඩක පොඩ්ඩක් ඉන්න.```",
-            "AFK_TEXT_NOMD": "මම RAVANA BOT!",
-            "HOUR": "පැය",
-            "MINUTE": "මිනිත්තු",
-            "SECOND": "තත්පර"
+            "AFK_TEXT": "```Bip bop! This is a bot. My owner is not here at the moment..```",
+            "AFK_TEXT_NOMD": "I AM RAVANA BOT!",
+            "HOUR": "hour",
+            "MINUTE": "minute",
+            "SECOND": "second"
         },
         "evaluators": {
             "TERM_DESC": "Allows to run the command on the server's shell.",
@@ -75,8 +75,8 @@
             "RESTART_DESC": "Restart RAVANA",
             "RESTART_MSG": "```Restarting...```",
             "SHUTDOWN_DESC": "Shutdown RAVANA",
-            "SHUTDOWN_MSG": "```බොට් ක්‍රියා විරහිත කරන ලදි ⛔```",
-            "DYNO_DESC": "ඔබේ heroku dyno use එක check කරනවා",
+            "SHUTDOWN_MSG": "```Shutdown⛔```",
+            "DYNO_DESC": "Your heroku dyno use cheking",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
             "PERCENTAGE": "```Percentage```",
@@ -103,17 +103,17 @@
         },
         "greetings": {
             "WELCOME_DESC": "It sets the welcome message. If you leave it blank it shows the welcome message.",
-            "NOT_SET_WELCOME": "*ඔබ පිළිගැනීමේ පණිවිඩය සකසා නැත.!*\n**To set:** ```.welcome your welcome message```",
-            "WELCOME_ALREADY_SETTED": "*✅ පිළිගැනීමේ පණිවිඩය දැනටමත් සකසා ඇත!*\n*Message:* ```",
-            "NEED_WELCOME_TEXT": "*You must write a message to set up the welcome message.*\n*Example:* ```.welcome WELCOME!```",
-            "WELCOME_DELETED": "*✅ පිළිගැනීමේ පණිවිඩය සාර්ථකව මකාදමන ලදි!*",
-            "WELCOME_SETTED": "*✅ පිළිගැනීමේ පණිවිඩය සාර්ථකව සකසන ලදි!*",
-            "GOODBYE_DESC": "goodbye පණිවිඩය. If you leave blank, it show's the goodbye message.",
-            "NOT_SET_GOODBYE": "*You didn't set a goodbye message!*\n*To set:* ```.goodbye Your Goodbye Message```",
-            "GOODBYE_ALREADY_SETTED": "*✅ goodbye පණිවිඩය දැනටමත් සකසා ඇත!*\n*Message:* ```",
-            "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye Goodbye!```",
-            "GOODBYE_DELETED": "*✅ goodbye පණිවිඩය සාර්ථකව මකාදමන ලදි!*",
-            "GOODBYE_SETTED": "*✅ Goodbye පණිවිඩය සාර්ථකව සකසන ලදි!*"
+            "NOT_SET_WELCOME": "*You don't set the welcome message yet.!*\n**To set:** ```.welcome hi && hi#how are you?```",
+            "WELCOME_ALREADY_SETTED": "*✅ Welcome message already set!*\n*Message:* ```",
+            "NEED_WELCOME_TEXT": "*You must write a message to set up the welcome message.*\n*Example:* ```.welcome hi && hi#how are you?```",
+            "WELCOME_DELETED": "*✅ Welcome message has been deleted successfully!*",
+            "WELCOME_SETTED": "*✅ Welcome message has been set successfully!*",
+            "GOODBYE_DESC": "Sets the goodbye message. If you leave blank, it show's the goodbye message.",
+            "NOT_SET_GOODBYE": "*You didn't set a goodbye message!*\n*To set:* ```.goodbye bye && bye#see ya```",
+            "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message has been set!*\n*Message:* ```",
+            "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye bye && bye#see ya```",
+            "GOODBYE_DELETED": "*✅ Goodbye message has been deleted successfully!*",
+            "GOODBYE_SETTED": "*✅ Goodbye message has been setted successfully!*"
         },
         "lydia": {
             "ADDLYDIA_DESC": "Activates Lydia (AI) for the user.",
@@ -149,7 +149,7 @@
         },
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```ගිහින් එන්නම්! මම යනවා 🥰```",
+            "KICKME": "```Bye.I am going```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
             "NEED_PHOTO": "*Give me a photo!*",
             "PPING": "```Setting profile photo...```",
@@ -185,7 +185,7 @@
             "TTS_ERROR": "```Error, Speech example of your sentence couldn't be made!```",
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Naadan Vibe```",
-            "NO_RESULT": "*මට කිසිවක් සොයාගත නොහැකි විය :(*",
+            "NO_RESULT": "*I couldn't find anything :(*",
             "DOWNLOADING_SONG": "\n*Downloading your song...*\n",
             "UPLOADING_SONG": "\n*Uploading song...*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
@@ -194,8 +194,8 @@
             "UPLOADING_VIDEO": "```Uploading video...```",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
-            "GETTING_VIDEOS": "```මම යූටියුබ් පැත්‍තෙ ගිහින් ලින්ක් ටිකක් අරන් එන්නම් ඔහොමම ඉන්න🤗...```",
-            "NOT_FOUND": "*මට කිසිවක් සොයාගත නොහැකි විය ☹️*",
+            "GETTING_VIDEOS": "```I'm bringing videos...```",
+            "NOT_FOUND": "*I couldn't find anything :(*",
             "SEARCHING": "*🔎 Searching...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
@@ -215,15 +215,15 @@
             "ADMİN": "*I am not admin in this group!*"
         },
         "updater": {
-            "UPDATER_DESC": "යාවත්කාලීනය පරීක්ෂා කරයි.",
-            "UPDATE": "*ඔබේ බොට් සම්පූර්ණයෙන්ම යාවත්කාලීනයි!*",
-            "NEW_UPDATE": "*RAVANA Update Available*\n\nයාවත්කාලීන කිරීමට පෙර කරුණාකර සහාය කණ්ඩායමෙන් විමසන්න https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP. එසේ නොමැතිනම් දෝෂයක් ඇතිවීමේ අවස්ථාව  ඇත\n\nවෙනස්කම්:\n```",
+            "UPDATER_DESC": "check updates.",
+            "UPDATE": "*Your bot is completely up-to-date!*",
+            "NEW_UPDATE": "*RAVANA Update Available*\n\nPlease contact the support team before updating https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP. Otherwise there is a chance of an error\n\nChanges:\n```",
             "UPDATE_NOW_DESC": " එය යාවත්කාලීන කරයි.",
             "UPDATING": "```Updating..🇱🇰```",
-            "INVALID_HEROKU": "*❌ ඔබේ හෙරොකු තොරතුරු වැරදියසාර්ථකව යාවත්කාලීන කරන ලදි!*",
+            "INVALID_HEROKU": "*❌ Your heroku informations incorrect!*",
             "UPDATED": "*Updated 🤠✅*",
-            "UPDATED_LOCAL": "*✅ සාර්ථකව යාවත්කාලීන කරන ලදි!*",
-            "AFTER_UPDATE": "💢 RAVANA නැවත ආරම්භ කිරීම ?*"
+            "UPDATED_LOCAL": "*✅ Your bot is completely up-to-date!*",
+            "AFTER_UPDATE": "💢 RAVANA restarting ?*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
@@ -505,7 +505,7 @@
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
-            "NOT": "*කොවිඩ්:😷 කොවිඩ්-19 ඔබ ඇතුළු පවුලේ සාමාජිකයන් ආරක්ෂා වන්නේ කෙසේද? ඒ සඳහා ගත යුතු පියවර සහ උපදෙස් 🍀*\n_https://www.bbc.com/sinhala/world-52147271_"
+            "NOT": "* Covid: 😷 Covid-19 How do you protect yourself and your family members? Steps and instructions to be taken for that*\n_shorturl.at/ezH48_"
         },
         "lyrics": {
             "LY_DESC": "Finds the lyrics of the song.",
@@ -516,12 +516,12 @@
             "ARAT": "Searched Song:"
         },
           "tiktok":{
-            "NEED": "ලින්ක් එකක් අවශ්‍යයි.",
+            "NEED": "I want link.",
             "DOWN": "```Downloading video...```",
-            "NOT": "```සොයාගත නොහැක!```"
+            "NOT": "```coudnt find!```"
         },
         "github": {
-            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github phaticusthiccy",
+            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github RAVANA-SL",
             "REPLY": "```You Need To Type Any Username!```",
             "NOT": "```User not found!```",
             "FOLLOWERS": "Followers:",
