@@ -12,7 +12,7 @@ const HELP = "Bot help Center"
 
 RAVANA.addCommand({pattern: 'rhelp', fromMe: true, deleteCommand: true, desc: HELP,}, (async (message, match) => {
 
-    await message.sendMessage("*🇱🇰HELLOW THIS IS RAVANA HELP CENTER🇱🇰* \n\n✨What's Your Problem \n\n\n▶මොකක්ද මේ RAVANA BOT කියන්නේ(.1) \n\n▶සිංදු වීඩියෝ එන්නේ නෑ(.2)\n\n▶ලොගෝ වැඩ නෑ(.3)\n\n▶Alive එක වැඩ කරන්නේ නෑ(.4)\n\n▶Shutdown කරාම on කරන්නේ කොහොමද(.5) \n\n▶බොට් එක පාරම වැඩ නැතුව ගියොත් මොකද කරන්නේ(.6)\n\n▶කොහොමද බොට්ගේ කමාන්ඩ් ටික ගන්නේ(.7) \n\n▶බොට් ගේ කමාන්ඩ් අපිට වැඩ නැත්තේ ඇයි(.8) \n\n▶Update කරන්නද(.9)\n\n▶වෙනත්(.10) \n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
+    await message.sendMessage("*🇱🇰HELLOW THIS IS RAVANA HELP CENTER🇱🇰* \n\n✨What's Your Problem \n\n\n▶මොකක්ද මේ RAVANA BOT කියන්නේ(.1) \n\n▶සිංදු වීඩියෝ එන්නේ නෑ(.2)\n\n▶ලොගෝ වැඩ නෑ(.3)\n\n▶Alive එක වැඩ කරන්නේ නෑ(.4)\n\n▶Shutdown කරාම on කරන්නේ කොහොමද(.5) \n\n▶බොට් එක පාරම වැඩ නැතුව ගියොත් මොකද කරන්නේ(.6)\n\n▶කොහොමද බොට්ගේ කමාන්ඩ් ටික ගන්නේ(.7) \n\n▶බොට් ගේ කමාන්ඩ් අපිට වැඩ නැත්තේ ඇයි(.8) \n\n▶Update කරන්නද(.9)\n\n▶කොහොමද language වෙනස් කරන්නේ(.10)\n\n▶වෙනත්(.11) \n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
 
 }));
 RAVANA.addCommand({pattern: '1', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
@@ -61,6 +61,11 @@ RAVANA.addCommand({pattern: '9', fromMe: true, dontAddCommandList: true}, (async
 
 }));
 RAVANA.addCommand({pattern: '10', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+
+    await message.sendMessage("*ඔබ දැනටමත් බොට්ව හදලනම් Language වෙනස් කරන්නෙ කොහොමද?*\n.setvar LANGUAGE:en හරි si හරි.|||en කියන්නේ english / si කියන්නේ සිංහල\n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
+
+}));
+RAVANA.addCommand({pattern: '11', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     await message.sendMessage("*ප්‍රශ්නය අපගේ whatsapp supposed group https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP එක තුලට හෝ මෙම නම්බර් එකට දාන්න wa.me/94756872976*\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
 
