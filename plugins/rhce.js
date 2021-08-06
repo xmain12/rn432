@@ -11,7 +11,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 const HELP = "Bot help Center"
 
 
-    RAVANA.addCommand({pattern: 'rhelpe', fromMe: true, deleteCommand: true, desc: HELP,}, (async (message, match) => {
+    RAVANA.addCommand({pattern: 'rehelp', fromMe: true, deleteCommand: true, desc: HELP,}, (async (message, match) => {
 
         await message.sendMessage("*🇱🇰HELLOW THIS IS RAVANA HELP CENTER🇱🇰* \n\n✨What's Your Problem \n\n\n▶What is this RAVANA BOT(.e1) \n\n▶Song videos are not coming(.e2)\n\n▶Logo does not work(.e3)\n\n▶Alive does not work(.e4)\n\n▶How to turn on after shutdown(.e5) \n\n▶What if the bot suddenly stops working?(.e6)\n\n▶How to take bot commands(.e7) \n\n▶Bot's command why we do not work(.e8) \n\n▶Update To do(.e9)\n\n▶How to change the language(.e10)\n\n▶Other(.e11) \n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
     
