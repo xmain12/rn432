@@ -72,6 +72,3 @@ const HELP = "Bot help Center"
     
     }));
     
-}
-
-    
