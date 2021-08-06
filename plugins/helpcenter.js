@@ -138,5 +138,5 @@ if (Config.LANGUAGE == 'si') {
             await message.sendMessage("*Your problem tell our  whatsapp suppoted group https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP or This number wa.me/94756872976*\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰");
         
         }));
-
+}
   
