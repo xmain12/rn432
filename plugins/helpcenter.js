@@ -73,6 +73,8 @@ if (Config.LANGUAGE == 'si') {
         await message.sendMessage("*ප්‍රශ්නය අපගේ whatsapp suppoted group https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP එක තුලට හෝ මෙම නම්බර් එකට දාන්න wa.me/94756872976*\n\n🥰RAVANA HELP CENTER  භාවිතා කිරීම ගැන ඔබට ස්තුතියි🇱🇰");
     
     }));
+    
+}
 
     else if (Config.LANGUAGE == 'en') { 
 
@@ -137,3 +139,4 @@ if (Config.LANGUAGE == 'si') {
         
         }));
 
+    }
