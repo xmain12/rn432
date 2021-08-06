@@ -8,11 +8,8 @@
 
 const RAVANA  = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
-const fs = require('fs');
-const Config = require('../config');
 const HELP = "Bot help Center"
 
-if (Config.LANGUAGE == 'SI') { 
 
     RAVANA.addCommand({pattern: 'rhelp', fromMe: true, deleteCommand: true, desc: HELP,}, (async (message, match) => {
 
