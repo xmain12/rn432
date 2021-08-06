@@ -94,9 +94,9 @@ async function whatsAsena () {
                     return conn.sendMessage(conn.user.jid, '[ ```Gündəlik Elanlar``` ]\n\n' + infoaz.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
-            else if (infoes !== '' && config.LANG == 'ES') {
+            else if (infoes !== '' && config.LANG == 'SI') {
                 while (getGMTh == 18 && getGMTm == 1) { 
-                    return conn.sendMessage(conn.user.jid, '[ ```Anuncios Diarios``` ]\n\n' + infoes.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[ ```දවසේ නිවේදන``` ]\n\n' + infoes.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
             else if (infoen !== '' && config.LANG == 'EN') {
@@ -349,7 +349,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
         console.log(chalk.bgGreen('💢 RAVANA' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
-        let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? '*💢 RAVANA Chatbot Olarak Çalışıyor!* 💢\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir._\n_Normal moda dönmek için_ *.fulleva off* _komutunu kullanabilirsiniz._\n\n*💢RAVANA  Kullandığın İçin Teşekkürler 💌*\n    *- Eva*' : '*WhatsAsena Working as a Chatbot! 💢*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fulleva off* _command to return to normal mode._\n\n*Thanks For Using 💢RAVANA*\n    *- Eva*'
+        let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'SI' ? '*💢 RAVANA Chatbot ලෙස වැඩ කරයි!* 💢\n\n_මෙම මාදිලියේ පරමාර්ථය නම් බොට් එක සම්පුර්ණයෙන්ම ක්‍රියාත්මක AI චැට් මෙවලමක් බවට පත් කිරීමයි.._\n_සාමාන්ය ප්රකාරයට ආපසු යාමට_ *.fulleva off* _ඔබට විධානය භාවිතා කළ හැකිය._\n\n*💢RAVANA  භාවිතා කිරීම ගැන ස්තුතියි 💌*\n    *- Eva*' : '*RAVANA Working as a Chatbot! 💢*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fulleva off* _command to return to normal mode._\n\n*Thanks For Using 💢RAVANA*\n    *- Eva*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
             await heroku.get(baseURI + '/formation').then(async (formation) => { 
@@ -473,7 +473,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         }
         else if (config.WORKTYPE == ' private' || config.WORKTYPE == 'Private' || config.WORKTYPE == ' Private' || config.WORKTYPE == 'privaye' || config.WORKTYPE == ' privaye' || config.WORKTYPE == ' prigate' || config.WORKTYPE == 'prigate' || config.WORKTYPE == 'priavte' || config.WORKTYPE == ' priavte' || config.WORKTYPE == 'PRİVATE' || config.WORKTYPE == ' PRİVATE' || config.WORKTYPE == 'PRIVATE' || config.WORKTYPE == ' PRIVATE') {
 
-            if (config.LANG == 'TR' || config.LANG == 'AZ') {
+            if (config.LANG == 'TR' || config.LANG == 'SI') {
 
                 await conn.sendMessage(
                     conn.user.jid,
@@ -498,7 +498,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             }
         }
         else if (config.WORKTYPE == ' public' || config.WORKTYPE == 'Public' || config.WORKTYPE == ' Public' || config.WORKTYPE == 'publoc' || config.WORKTYPE == ' Publoc' || config.WORKTYPE == 'pubcli' || config.WORKTYPE == ' pubcli' || config.WORKTYPE == 'PUBLİC' || config.WORKTYPE == ' PUBLİC' || config.WORKTYPE == 'PUBLIC' || config.WORKTYPE == ' PUBLIC' || config.WORKTYPE == 'puvlic' || config.WORKTYPE == ' puvlic' || config.WORKTYPE == 'Puvlic' || config.WORKTYPE == ' Puvlic') {
-            if (config.LANG == 'TR' || config.LANG == 'AZ') {
+            if (config.LANG == 'TR' || config.LANG == 'SI') {
                 await conn.sendMessage(
                     conn.user.jid,
                      '_ඔබට පුද්ගලික ප්‍රකාරයට මාරුවීමට අවශ්‍ය බව පෙනේ! අවාසනාවට_ *WORK_TYPE* _ඔබේ යතුර වැරදියි!_ \n_කණගාටු නොවන්න! මම ඔබ වෙනුවෙන් නිවැරදි එක සොයා ගැනීමට උත්සාහ කරමි.._', MessageType.text
@@ -522,7 +522,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             }
         }
         else {
-            if (config.LANG == 'TR' || config.LANG == 'AZ') {
+            if (config.LANG == 'TR' || config.LANG == 'SI') {
                 return await conn.sendMessage(
                     conn.user.jid,
                     '_ඔබ ඇතුළු කළා_ *WORK_TYPE* _යතුර හමු නොවීය!_ \n_කරුණාකර_ ```.setvar WORK_TYPE:private``` _හෝ_ ```.setvar WORK_TYPE:public``` _විධානය භාවිතා කරන්න!_', MessageType.text
@@ -937,7 +937,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         await conn.connect();
     } catch {
         if (!nodb) {
-            console.log(chalk.red.bold('Eski sürüm stringiniz yenileniyor...'))
+            console.log(chalk.red.bold('ඔබේ පැරණි අනුවාද මාලාව ප්‍රබෝධමත් කිරීම...'))
             conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
             try {
                 await conn.connect();
