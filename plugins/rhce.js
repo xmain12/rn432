@@ -18,7 +18,7 @@ const HELP = "Bot help Center"
     }));
     RAVANA.addCommand({pattern: 'e1', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
     
-        await message.sendMessage("* RAVANA BOT is a Whatsapp Bot. \n\n * What can be done with this? * \ n⭕You can download songs and videos through WhatsApp. 100 logos There are two logo packs, one is rpack (.rpack) and the other is rnpack (.rnpack) \ nMake a sticker, make a sticker, make a photo sticker \ nThere are many more. If you hit it, it will not come. If your bot is public, call it someone else) \ n \ n * Remember, your data will not be cut for this, it is only because you auto downloaded on \n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰 ");
+        await message.sendMessage("*RAVANA BOT is a Whatsapp Bot.* \n\n *What can be done with this?* \n⭕You can download songs and videos through WhatsApp.\n⭕100 logos There are two logo packs, one is rpack (.rpack) and the other is rnpack (.rnpack) \n⭕Make a sticker, make a sticker, make a photo sticker \n⭕There are many more. If you hit it, it will not come. If your bot is public, call it someone else) \n\n *Remember, your data will not be cut for this, it is only because you auto downloaded on* \n\n\n🥰Thank you for using RAVANA HELP CENTER🇱🇰 ");
     
     }));
     RAVANA.addCommand({pattern: 'e2', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
