@@ -13,7 +13,7 @@ const Config = require('../config');
 const HELP = "Bot help Center"
 
 
-if (Config.LANGUAGE == 'en') { 
+if (Config.LANGUAGE == 'EN') { 
 
     RAVANA.addCommand({pattern: 'rhelp', fromMe: true, deleteCommand: true, desc: HELP,}, (async (message, match) => {
 
