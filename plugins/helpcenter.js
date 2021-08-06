@@ -8,6 +8,7 @@
 
 const RAVANA  = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
+const fs = require('fs');
 const Config = require('../config');
 const HELP = "Bot help Center"
 
