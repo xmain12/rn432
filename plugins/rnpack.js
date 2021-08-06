@@ -15,7 +15,7 @@ const NEED_WORD = "*type somr word*"
 
 if (Config.WORKTYPE == 'private') {
 
-    RAVANA.addCommand({pattern: 'rnpack', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+    RAVANA.addCommand({pattern: 'rnpack', fromMe: true, desc: EFFECT_DESC}, (async (message, match) => {    
 
          var r_text = new Array ();
 
