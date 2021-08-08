@@ -20,7 +20,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-Asena.addCommand({pattern: 'tag ?(.*)', fromMe: true, desc: Lang.TAGALL_DESC }, (async (message, match) => {
+Asena.addCommand({pattern: 'tagall ?(.*)', fromMe: true, desc: Lang.TAGALL_DESC }, (async (message, match) => {
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.ADMİN,MessageType.text);
 
@@ -43,7 +43,7 @@ Asena.addCommand({pattern: 'tag ?(.*)', fromMe: true, desc: Lang.TAGALL_DESC }, 
             mesaj = '';
             grup['participants'].map(
                 async (uye) => {
-                    mesaj += '🔖 @' + uye.id.split('@')[0] + '\n';
+                    mesaj += '🇱🇰 @' + uye.id.split('@')[0] + '\n';
                     jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
                 }
             );
@@ -67,7 +67,7 @@ Asena.addCommand({pattern: 'tag ?(.*)', fromMe: true, desc: Lang.TAGALL_DESC }, 
 var stag_dsc = ''
 if (Config.LANG == 'TR') stag_dsc = 'Yanıtlanan mesajı gruptaki tüm üyelere gönderir.'
 if (Config.LANG == 'EN') stag_dsc = 'Sends the replied message to all members in the group.'
-if (Config.LANG == 'AZ') stag_dsc = 'Cavablanmış mesajı qrupdakı bütün üzvlərə göndərir.'
+if (Config.LANG == 'SI') stag_dsc = 'කණ්ඩායමේ සියලුම සාමාජිකයින්ට පිළිතුරු දුන් පණිවිඩය යවයි.'
 if (Config.LANG == 'RU') stag_dsc = 'Отправляет ответное сообщение всем участникам группы.'
 if (Config.LANG == 'HI') stag_dsc = 'उत्तर दिया गया संदेश समूह के सभी सदस्यों को भेजता है'
 if (Config.LANG == 'ES') stag_dsc = 'Envía el mensaje de respuesta a todos los miembros del grupo.'
