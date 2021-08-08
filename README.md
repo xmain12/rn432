@@ -1,2 +1,2 @@
 # rn432
-crashed
+crashed coudnt fixed
