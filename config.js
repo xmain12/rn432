@@ -19,7 +19,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v3.1 Global Stable',
+    VERSION: 'v3.5 Global Stable',
     CHANNEL: 'https://chat.whatsapp.com/B5r06KogQix9xhRDjY4NkP',
     SESSION: process.env.RAVANA_SESSION === undefined ? '' : process.env.RAVANA_SESSION,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
