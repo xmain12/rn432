@@ -42,6 +42,8 @@ module.exports = {
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.]' : process.env.HANDLERS,
+    ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
+    AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     MENUTEXT: process.env.MENU_TEXT === undefined ?'*RAVANA💢*' : process.env.MENU_TEXT,
     MENU_LOGO: process.env.MENU_LOGO === undefined ?  'https://telegra.ph/file/000e36957e64bf5631335.jpg' : process.env.MENU_LOGO,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
