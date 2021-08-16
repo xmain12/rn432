@@ -304,7 +304,7 @@ async function whatsAsena () {
     })    
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('SL')}${chalk.blue.bold('RAVANA')}
-${chalk.white.bold('Version:')} ${chalk.red.bold('3.1')}
+${chalk.white.bold('Version:')} ${chalk.red.bold('3.5')}
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
     });
     conn.on('credentials-updated', async () => {
