@@ -1,6 +1,6 @@
 {
   "name": "RAVANA",
-  "version": "3.1",
+  "version": "3.5",
   "description": "RAVANA project - a Whatsapp userbot helping to improve your Whatsapp experience.",
   "main": "./WhatsAsenaDuplicated/bot.js",
   "scripts": {
